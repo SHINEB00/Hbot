@@ -169,7 +169,7 @@ def main():
 
         if not accounts_with_grow_action:
             print(Fore.YELLOW + Style.BRIGHT + f"[{current_time()}] All accounts processed. Waiting for new grow actions..." + Style.RESET_ALL, end='\r')
-            time.sleep(1200)
+            time.sleep(60)
 
 if __name__ == "__main__":
     print_intro()
